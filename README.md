@@ -23,6 +23,8 @@ python predict.py -p data\Test_images --model_path data\mobilenetV2_model
 
 ```
 
+![alt text](https://github.com/gkiri/Person_Segmentation/blob/main/evaluation/test_img.JPG)
+
 
 # Summary
 1.Network Architecture
