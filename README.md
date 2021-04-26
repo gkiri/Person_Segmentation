@@ -1,10 +1,13 @@
 # Person_Segmentation
 
 # Train
-
+* python train.py --train_path data\coco2_dataset\images --workdir data --model_type mobilenetV2 --batch_size 8 --epoch 15
 
 # Test
-
+## GPU
+* python predict.py -p data\Test_images --model_path data\mobilenetV2_model --gpu -1
+## CPU
+* python predict.py -p data\Test_images --model_path data\mobilenetV2_model
 
 # Summary
 1.Network Architecture
