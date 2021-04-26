@@ -30,7 +30,6 @@ python predict.py -p data\Test_images --model_path data\mobilenetV2_model
 
 * Since Architecture uses Depth wise separable convolutions through out network ,
   no: of computations needed and total learnable parameters are greatly reduced.
-* 
   
 
 2.Training 
