@@ -35,7 +35,7 @@ python predict.py -p data\Test_images --model_path data\mobilenetV2_model
 
 2.Training 
 * Extracted COCO dataset with 65k images
-* Due to Lack of GPU resources , trained model only on ~5k images
+* Due to Lack of GPU resources , trained model only on ~5k images for 10 epochs
 * Used Binary cross entropy and Dice as Loss functions
 * Trained around 15 epochs on local machine for few hours - Laptop NVIDIA GEFORCE GTX Ti
 * Recorded and plotted training results in graphs (acc,val ,loss ,metrics,epochs etc)
