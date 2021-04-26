@@ -1,5 +1,5 @@
 # Person_Segmentation
-
+* UNet based architecture with MobileNetV2 backbone as encoder
 # Train
 ```
 python train.py --train_path data\coco2_dataset\images --workdir data --model_type mobilenetV2 --batch_size 8 --epoch 15
