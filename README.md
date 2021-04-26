@@ -5,6 +5,10 @@
 python train.py --train_path data\coco2_dataset\images --workdir data --model_type mobilenetV2 --batch_size 8 --epoch 15
 
 ```
+##  Accuracy ,loss and metrics 
+![alt text](https://github.com/gkiri/Person_Segmentation/blob/main/data/mobilenetV2_model/loss_history.png)
+
+![alt text](https://github.com/gkiri/Person_Segmentation/blob/main/data/mobilenetV2_model/metric_history.png)
 
 # Test
 ## GPU
