@@ -1,0 +1,1 @@
+Please place all masks of corresponding images with same file name in this folder
